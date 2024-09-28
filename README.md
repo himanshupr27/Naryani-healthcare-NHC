@@ -41,18 +41,18 @@ This is a medical website designed for booking appointments with doctors, contac
    
 2.Install backend dependencies:
 
-```bash
+bash
 npm install 
 
 3.Set up environment variables:
 Create a .env file in the backend folder and add the following:
 
-```bash
+bash
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret_key
 
 4.Start the backend server:
-```bash
+bash
 npm start
 
 The server will run on http://localhost:5000.
@@ -61,12 +61,12 @@ The server will run on http://localhost:5000.
 
 1.Navigate to the frontend folder:
 
-```bash
+bash
 cd ../frontend
 
 2.Install frontend dependencies:
 
-```bash
+bash
 npm install
 
 3.Start the React development server:
