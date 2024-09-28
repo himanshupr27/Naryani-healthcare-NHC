@@ -53,7 +53,7 @@ Create a .env file in the backend folder and add the following:
    ```bash
    npm start
 
-The server will run on http://localhost:5000.
+The server will run on http://localhost:4000.
 
 ###Frontend Setup:
 
