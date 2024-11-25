@@ -6,12 +6,13 @@ import contRouter from "./router/contact-router.js"
 import bookRouter from "./router/bookappoint-router.js"
 import connectDB from "./db.js";
 import errorMiddleware from "./middleware/error-middleware.js";
+import env from "dotenv";
 
 const app= express();
-const port = 4000;
+const port = process.evn.PORT || 4000;
 
 const CorsOption={
-  origin:"http://localhost:3000",
+  origin:`${process.env.BASE_URL}`,
   methods:"GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials:true,
 };
